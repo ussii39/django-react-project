@@ -6,7 +6,11 @@ export default class App extends Component {
     super(props);
   }
   render() {
-    return <h1>Test</h1>;
+    return (
+      <h1>
+        <button>送信</button>
+      </h1>
+    );
   }
 }
 
